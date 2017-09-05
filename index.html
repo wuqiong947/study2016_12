@@ -1,9 +1,119 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<title>骏速通——移动网站</title>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script src="js/common.js"></script>
+<!--banner 脚本-->
+<script src="js/TouchSlide.1.1.js"></script>
+<!--banner 脚本-->
 </head>
 <body>
-<p>卧槽</p>
+<div class="container" id="container"> 
+<div class="header-bot-item">
+<h2>骏速通</h2>
+<span class="tel"></span>
+</div>
+
+<!--Banner-->
+<div class="banner" id="index-banner">
+  <div class="banner-pics">
+    <ul class="banner-pics-list OnSale-banner">
+      <li><a href="#"><img src="images/ind-banner.jpg" alt=""/></a></li>
+      <li><a href="#"><img src="images/ind-banner.jpg" alt=""/></a></li>
+      <li><a href="#"><img src="images/ind-banner.jpg" alt=""/></a></li>
+    </ul>
+  </div>
+  <ul class="banner-tit">
+    <li class="on"></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+<script type="text/javascript">
+        TouchSlide({
+            slideCell:"#index-banner",
+            titCell:".banner-tit li",//开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+            mainCell:".banner-pics-list",
+            effect:"left",
+            autoPlay:true,//自动播放
+            //autoPage:true, //自动分页
+            })
+</script> 
+<!--banner-end-->
+
+<div class="ind-nav ind-nav1">
+  <ul class="clearfix">
+    <li><div><a href="1.html"><i><img src="images/xczx.png"></i><em>在线寄件</em></a></div></li>
+    <li><div><a href="2.html"><i><img src="images/xczx.png"></i><em>在线查件</em></a></div></li>
+    <li><div><a href="3.html"><i><img src="images/xczx.png"></i><em>运费查询</em></a></div></li>
+    <li><div><a href="4.html"><i><img src="images/xczx.png"></i><em>网点查询</em></a></div></li>
+    <li><div><a href="5.html"><i><img src="images/xczx.png"></i><em>服务介绍</em></a></div></li>
+    <li><div><a href="6.html"><i><img src="images/xczx.png"></i><em>企业合作</em></a></div></li>
+    <li><div><a href="7.html"><i><img src="images/xczx.png"></i><em>网上招聘</em></a></div></li>
+    <li><div><a href="8.html"><i><img src="images/xczx.png"></i><em>关于我们</em></a></div></li>
+    <li><div><a href="javascript:void(0)" class="more"><i><img src="images/more.png"></i><em>更多</em></a></div></li>
+  </ul>
+</div>
+
+<div class="ind-item">
+  <a href="book-recovery.html">
+      <div class="ind-item-img"><img src="images/eszh.png"></div>
+      <div class="ind-item-txt">
+        <h3 class="red">在线客服</h3>
+        <p>骏速通24小时客服</p>
+      </div>
+  </a>  
+</div>
+
+<div class="ind-item">
+  <a href="goods-allocation.html">
+    <div class="ind-item-img"><img src="images/hyps.png"></div>
+    <div class="ind-item-txt">
+      <h3 class="green">在线吐槽</h3>
+      <p>11</p>
+    </div>
+  </a>  
+</div>
+<!--二手置换 货运配送结束-->
+
+</div>
+<!--container-end-->
+
+<!--footer-->
+<footer class="footer" id="footer">
+  <ul class="footnav box-flex">
+    <li class="on"><a href="index.html" class="home"><i></i><span class="full-block">网站首页</span></a></li>
+	<li><a href="worker-join.html" class="foot-worker"><i></i><span class="full-block">在线寄件</span></a></li>
+    <li><a href="my-order.html" class="foot-order"><i></i><span class="full-block">运单列表</span></a></li>
+    <li><a href="my.html" class="my"><i></i><span class="full-block">个人中心</span></a></li>
+  </ul>
+</footer>
+<!--footer-end-->
+
+<!--栏目更多-->
+<script type="text/javascript">
+$(".ind-nav").each(function(){	
+  var self = $(this); 
+  var n=self.find("ul li").length;
+  if(n<=8){
+  self.find( ".more").addClass("hide-more");
+  }else{
+  self.find(".more").removeClass("hide-more");
+  } 
+ self.find(".more").click(function(){
+    self.find( "ul" ).toggleClass("intro");
+	self.find(".more").toggleClass("add-more");
+  });
+  });
+</script>
+<!--栏目更多--> 
 </body>
 </html>
