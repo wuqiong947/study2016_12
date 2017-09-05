@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<title>在线寄件——骏速通</title>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script src="js/common.js"></script>
+</head>
+
+<body>
+<header class="header" id="header">
+<a href="javascript:history.go(-1)" target=_self class="back">返回</a>
+<h1>在线寄件</h1>
+</header>
+<!--header-end-->
+
+<div class="container" id="container"> 
+
+<div class="add-class">
+  <form>
+    <ul>
+      <li><label>寄件姓名</label><input id="type" type="text" name="type" class="type" placeholder="寄件姓名" value=""></li>
+      <li><label>寄件电话</label><input id="amount" type="text" name="amount" class="amount" placeholder="寄件电话" value=""></li>
+      <li><label>寄件地区</label><input id="coupons" type="text" name="coupons" class="coupons" placeholder="寄件地区" value=""></li>
+      <li><label>寄件地址</label><input id="remarks" type="text" name="remarks" class="remarks" placeholder="寄件地址" value=""></li>
+    </ul>
+    <ul>
+      <li><label>收件姓名</label><input id="type" type="text" name="type" class="type" placeholder="收件姓名" value=""></li>
+      <li><label>收件电话</label><input id="amount" type="text" name="amount" class="amount" placeholder="收件电话" value=""></li>
+      <li><label>收件地区</label><input id="coupons" type="text" name="coupons" class="coupons" placeholder="收件地区" value=""></li>
+      <li><label>收件地址</label><input id="remarks" type="text" name="remarks" class="remarks" placeholder="收件地址" value=""></li>
+    </ul>
+	<ul>
+      <li><label>快递备注</label><input id="remarks" type="text" name="remarks" class="remarks" placeholder="快递名称，重量，属性..." value=""></li>
+    </ul>
+    <button type="submit" class="confirm-payment">确认信息</button>
+  </form>  
+</div>
+
+</div>
+<!--container-end-->
+</body>
+</html>
