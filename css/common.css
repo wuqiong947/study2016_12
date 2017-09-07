@@ -14,12 +14,14 @@
 	-webkit-box-align: center;
 	align-items: center
 }
+
 .header-bot-item em {
 	font-size: 0.7rem;
 	display: block;
 	margin-left: 0.625rem;
 	text-align: center
 }
+
 .header-bot-item h2 {
 	font-size: 0.75rem;
 	text-align: center;
@@ -28,6 +30,7 @@
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .header-bot-item .tel {
 	width: 25px;
 	height: 25px;
@@ -39,17 +42,21 @@
 	background: url(../images/header-bot-tel.jpg) center center no-repeat;
 	background-size: cover
 }
+
 .banner {
 	position: relative;
 	background: #fff
 }
+
 .banner-pics-list li {
 	width: 100%
 }
+
 .banner-pics-list li a img {
 	display: block;
 	width: 100%
 }
+
 .banner-tit {
 	position: absolute;
 	left: 0;
@@ -59,6 +66,7 @@
 	text-align: center;
 	background-color: transparent
 }
+
 .banner-tit li {
 	width: 0.5rem;
 	height: 0.5rem;
@@ -69,13 +77,16 @@
 	border-radius: 100%;
 	margin-right: 0.3rem
 }
+
 .banner-tit li.on {
 	background-color: rgba(0, 0, 0, .4)
 }
+
 .ind-nav {
 	margin-bottom: 0.35rem;
 	position: relative
 }
+
 .ind-nav::after {
 	content: '';
 	height: 1px;
@@ -85,10 +96,12 @@
 	bottom: 0;
 	left: 0
 }
+
 .ind-nav .ind-tit {
 	height: 1.85rem;
 	background-color: #FFF
 }
+
 .ind-nav .ind-tit h2 {
 	height: 1.85rem;
 	line-height: 2rem;
@@ -99,14 +112,17 @@
 	background: url(../images/ind-tit.png) center center no-repeat;
 	background-size: contain
 }
+
 .ind-nav ul {
 	height: 8rem;
 	border-top: 1px solid #efefef;
 	overflow: hidden
 }
+
 .ind-nav ul.intro {
 	height: auto
 }
+
 .ind-nav ul li {
 	float: left;
 	width: 25%;
@@ -124,25 +140,30 @@
 	display: -webkit-box;
 	display: box
 }
+
 .ind-nav ul li:last-child {
 	border-right: none
 }
+
 .ind-nav ul li div {
 	margin: 0 auto;
 	width: 100%
 }
+
 .ind-nav ul li a i, .more i {
 	width: 1.5rem;
 	height: 1.5rem;
 	display: block;
 	margin: 0 auto 0.3rem
 }
+
 .ind-nav ul li a em, .ind-nav .more {
 	color: #222222;
 	font-size: 0.6rem;
 	text-align: center;
 	display: block
 }
+
 .ind-nav .more {
 	width: 25%;
 	position: absolute;
@@ -153,18 +174,22 @@
 	background-color: #fff;
 	border-bottom: 1px solid #ededed
 }
+
 .ind-nav .add-more {
 	width: 100%;
 	position: static;
 	border-bottom: none;
 	display: block
 }
+
 ul.intro li:last-child {
 	border-right: 1px solid #ededed
 }
+
 .ind-nav .hide-more {
 	display: none
 }
+
 .ind-item a {
 	padding: 0.4rem 0;
 	background-color: #fff;
@@ -177,25 +202,31 @@ ul.intro li:last-child {
 	-webkit-box-align: center;
 	align-items: center
 }
+
 .ind-item .ind-item-img {
 	height: 3rem;
 	width: 3rem;
 	margin: 0 0.5rem 0 0.8rem
 }
+
 .ind-item h3 {
 	font-size: 0.7rem;
 	margin-bottom: 0.2rem
 }
+
 .ind-item h3.red {
 	color: #ed5a37
 }
+
 .ind-item h3.green {
 	color: #3cad7b
 }
+
 .ind-item p {
 	color: #9d9a9b;
 	font-size: 0.6rem
 }
+
 .my-face {
 	height: 6.65rem;
 	width: 100%;
@@ -209,12 +240,14 @@ ul.intro li:last-child {
 	background: url(../images/face-bg.jpg) center center no-repeat;
 	background-size: cover
 }
+
 .my-face .my-face-con {
 	height: 5rem;
 	width: 5rem;
 	margin: 0 auto;
 	position: relative
 }
+
 .my-face .my-face-pic {
 	width: 3.75rem;
 	height: 3.75rem;
@@ -225,6 +258,7 @@ ul.intro li:last-child {
 	-webkit-border-radius: 100%;
 	border-radius: 100%
 }
+
 .my-face p {
 	width: 100%;
 	text-align: center;
@@ -234,11 +268,13 @@ ul.intro li:last-child {
 	bottom: 0;
 	left: 0
 }
+
 .personal-list ul {
 	margin-bottom: 0.25rem;
 	border-top: 1px solid #f5f5f5;
 	border-bottom: 1px solid #f5f5f5
 }
+
 .personal-list ul li {
 	padding: 0 5%;
 	height: 2.25rem;
@@ -247,33 +283,43 @@ ul.intro li:last-child {
 	background: url(../images/my-arrow.png) 95% center no-repeat;
 	background-size: 0.275rem 0.5rem
 }
+
 .personal-list ul li:last-child {
 	border-bottom: none
 }
+
 .personal-list ul li a.my-icon-wddd {
 	background-image: url(../images/my-icon-wddd.png)
 }
+
 .personal-list ul li a.my-icon-ddjd {
 	background-image: url(../images/my-icon-ddjd.png)
 }
+
 .personal-list ul li a.my-icon-grzl {
 	background-image: url(../images/my-icon-grzl.png)
 }
+
 .personal-list ul li a.my-icon-yhq {
 	background-image: url(../images/my-icon-yhq.png)
 }
+
 .personal-list ul li a.my-icon-wdjf {
 	background-image: url(../images/my-icon-wdjf.png)
 }
+
 .personal-list ul li a.my-icon-gsjj {
 	background-image: url(../images/my-icon-gsjj.png)
 }
+
 .personal-list ul li a.my-icon-bzzx {
 	background-image: url(../images/my-icon-bzzx.png)
 }
+
 .personal-list ul li a.my-icon-kfzx {
 	background-image: url(../images/my-icon-kfzx.png)
 }
+
 .personal-list ul li a {
 	color: #181818;
 	font-size: 0.7rem;
@@ -282,6 +328,7 @@ ul.intro li:last-child {
 	background-repeat: no-repeat;
 	background-size: auto 50%
 }
+
 .personal-list ul li a .my-tel {
 	float: right;
 	display: inline-block;
@@ -289,25 +336,28 @@ ul.intro li:last-child {
 	color: #999999;
 	font-size: 0.7rem
 }
+
 .personal-data1 ul li {
 	height: 2.25rem;
 	line-height: 2.25rem;
 	overflow: hidden;
 	border-bottom: 1px solid #e5e5e5;
 	padding: 0 0.5rem;
-	background: url(../images/my-arrow.png) 95% center no-repeat;
 	background-size: 0.275rem 0.5rem
 }
+
 .personal-data1 ul li a {
 	color: #181818;
 	font-size: 0.6rem
 }
+
 .personal-data1 ul li a span {
 	display: block;
 	max-width: 40%;
 	float: left;
 	overflow: hidden
 }
+
 .personal-data1 ul li a em {
 	max-width: 60%;
 	text-align: right;
@@ -321,12 +371,14 @@ ul.intro li:last-child {
 	overflow: hidden;
 	-webkit-box-pack: center
 }
+
 .center_edit {
 	width: 60%;
 	font-size: 0.9em;
 	color: #999;
 	border: 0px
 }
+
 .classification ul li {
 	padding: 1rem 0;
 	width: 50%;
@@ -337,18 +389,22 @@ ul.intro li:last-child {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box
 }
+
 .classification ul li:nth-last-child(odd) {
 	border-right: none
 }
+
 .classification ul li a {
 	display: block;
 	width: 6.5rem;
 	margin: 0 auto
 }
+
 .classification ul li a img {
 	width: 6.5rem;
 	height: 5.5rem
 }
+
 .classification ul li a span {
 	height: 1.6rem;
 	line-height: 0.8rem;
@@ -364,6 +420,7 @@ ul.intro li:last-child {
 	overflow: hidden;
 	-webkit-box-pack: center
 }
+
 .classification ul.other li a .other-img {
 	width: 4.5rem;
 	height: 4.5rem;
@@ -373,6 +430,7 @@ ul.intro li:last-child {
 	-webkit-border-radius: 100%;
 	border-radius: 100%
 }
+
 .pro-list ul li {
 	padding: 0.5rem 0.4rem;
 	border-bottom: 1px solid #e5e5e5;
@@ -387,10 +445,12 @@ ul.intro li:last-child {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box
 }
+
 .pro-list ul li a .pro-list-img {
 	width: 4.7rem;
 	height: 3.85rem
 }
+
 .pro-list ul li .pro-list-txt {
 	padding: 0 0.5rem;
 	-webkit-box-flex: 1;
@@ -398,6 +458,7 @@ ul.intro li:last-child {
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .pro-list ul li .pro-list-txt .pro-list-txt-tit {
 	font-size: 0.7rem;
 	color: #181818;
@@ -408,25 +469,30 @@ ul.intro li:last-child {
 	overflow: hidden;
 	-webkit-box-pack: center
 }
+
 .pro-list ul li .pro-list-txt span {
 	color: #fff;
 	font-size: 0.6rem;
 	background-color: #fa4b28;
 	padding: 0 0.1rem
 }
+
 .pro-list ul li .pro-list-txt p, .pro-list ul li .pro-list-txt p a {
 	display: inline-block;
 	color: #999999;
 	font-size: 0.7rem
 }
+
 .goods-allocation ul {
 	background-color: transparent
 }
+
 .goods-allocation ul li {
 	background-color: #fff;
 	margin-top: 0.3rem;
 	padding: 0.6rem
 }
+
 .goods-allocation ul li a {
 	background: url(../images/my-arrow.png) 95% center no-repeat;
 	background-size: 0.275rem 0.5rem;
@@ -438,21 +504,25 @@ ul.intro li:last-child {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .goods-allocation-img {
 	width: 3.2rem;
 	height: 3.2rem;
 	margin-right: 0.5rem;
 	overflow: hidden
 }
+
 .goods-allocation-txt h2 {
 	color: #222222;
 	font-size: 0.7rem;
 	margin-bottom: 0.2rem
 }
+
 .goods-allocation-txt p {
 	color: #666666;
 	font-size: 0.6rem
 }
+
 .details-price, .min-price {
 	background-color: #fff;
 	padding: 0 0.5rem;
@@ -460,31 +530,38 @@ ul.intro li:last-child {
 	margin-bottom: 0.3rem;
 	color: #181818
 }
+
 .details-price li {
 	height: 1.9rem;
 	line-height: 1.9rem;
 	border-bottom: 1px solid #efefef
 }
+
 .details-price li:last-child {
 	border-bottom: none
 }
+
 .details-price li em {
 	color: #fa4b28;
 	font-size: 0.85rem
 }
+
 .min-price-tit {
 	padding: 0.5rem 0
 }
+
 .min-price-tit h2 {
 	border-left: 2px solid #fa4b28;
 	padding-left: 0.25rem;
 	color: #999999;
 	font-size: 0.7rem
 }
+
 .min-price-con {
 	line-height: 1rem;
 	padding-bottom: 0.75rem
 }
+
 .min-price-bot {
 	width: 100%;
 	position: fixed;
@@ -493,23 +570,28 @@ ul.intro li:last-child {
 	height: 2.1rem;
 	line-height: 2.1rem
 }
+
 .min-price-bot a {
 	color: #fff;
 	font-size: 0.75rem;
 	text-align: center;
 	display: block
 }
+
 .min-price-bot div {
 	width: 50%;
 	height: 100%;
 	float: left
 }
+
 .min-price-tel {
 	background-color: #1a85f8
 }
+
 .min-price-order {
 	background-color: #ff731c
 }
+
 .car-description {
 	color: #181818;
 	font-size: 0.6rem;
@@ -518,15 +600,18 @@ ul.intro li:last-child {
 	padding: 0.5rem;
 	border-bottom: 1px solid #e5e5e5
 }
+
 ul.car-details {
 	margin-bottom: 0.3rem;
 	padding: 0.5rem;
 	font-size: 0.6rem;
 	color: #999999
 }
+
 ul.car-details em {
 	display: inline-block
 }
+
 ul.car-details li {
 	width: 100%;
 	float: left;
@@ -539,27 +624,35 @@ ul.car-details li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box
 }
+
 ul.car-details li.fwfw {
 	background-image: url(../images/fwfw.png)
 }
+
 ul.car-details li.fwqy {
 	background-image: url(../images/fwqy.png)
 }
+
 ul.car-details li.fwdz {
 	background-image: url(../images/fwdz.png)
 }
+
 ul.car-details li.fwdh {
 	background-image: url(../images/fwdh.png)
 }
+
 ul.repair-price li span {
 	color: #999999
 }
+
 ul.repair-price li span i {
 	color: #fa4b28
 }
+
 ul.repair-price li span em {
 	font-size: 0.9rem
 }
+
 .tip {
 	margin-bottom: 0.3rem;
 	margin-left: 0.5rem;
@@ -569,6 +662,7 @@ ul.repair-price li span em {
 	color: #ff731c;
 	font-size: 0.5rem
 }
+
 .repair-price-con ul li {
 	font-size: 0.2rem;
 	list-style-type: none;
@@ -576,14 +670,17 @@ ul.repair-price li span em {
 	margin-left: 0.5rem;
 	list-style: disc
 }
+
 .repair-price-con ul li a {
 	font-size: 0.6rem;
 	color: #0c75e7;
 	text-decoration: underline
 }
+
 .order-confirm {
 	padding: 0.3rem 0
 }
+
 ul.order-confirm-list li {
 	width: 100%;
 	padding: 0.3rem 0.5rem;
@@ -595,12 +692,14 @@ ul.order-confirm-list li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box
 }
+
 ul.order-confirm-list li h2 {
 	margin-right: 0.5rem;
 	display: block;
 	color: #666666;
 	font-size: 0.6rem
 }
+
 ul.order-confirm-list li span {
 	display: block;
 	color: #181818;
@@ -610,10 +709,12 @@ ul.order-confirm-list li span {
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 ul.order-price {
 	padding: 0 0.5rem;
 	margin: 0.3rem 0
 }
+
 ul.order-price li {
 	width: 100%;
 	height: 1.9rem;
@@ -623,15 +724,18 @@ ul.order-price li {
 	display: -webkit-box;
 	display: box
 }
+
 ul.order-price li:last-child {
 	border-top: 1px solid #f5f5f5
 }
+
 ul.order-price li h2 {
 	margin-right: 0.5rem;
 	display: block;
 	color: #666666;
 	font-size: 0.6rem
 }
+
 ul.order-price li span {
 	color: #fa4b28;
 	font-size: 0.6rem;
@@ -642,18 +746,22 @@ ul.order-price li span {
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 ul.order-price li p {
 	width: 100%;
 	font-size: 0.7rem;
 	color: #181818;
 	text-align: right
 }
+
 ul.order-price li p em {
 	color: #fa4b28
 }
+
 .order-schedule-img {
 	padding: 0.5rem 0
 }
+
 a.pay, span.cancel, .submit-btn, .confirm-payment, .order, .sure-order, .tjxx {
 	border: none !important;
 	padding: 0 !important;
@@ -670,44 +778,53 @@ a.pay, span.cancel, .submit-btn, .confirm-payment, .order, .sure-order, .tjxx {
 	border-radius: 0.2rem;
 	font-size: 0.8rem
 }
+
 .order-num span.state {
 	color: #1a85f9;
 	font-size: 0.6rem
 }
+
 ul.order-cancel-list li:last-child {
 	height: 2rem;
 	line-height: 2rem;
 	padding: 0 0.5rem;
 	border-top: 1px solid #e5e5e5
 }
+
 ul.order-cancel-list li p {
 	width: 100%;
 	font-size: 0.7rem;
 	color: #181818;
 	text-align: left
 }
+
 ul.order-cancel-list li p em {
 	color: #fa4b28
 }
+
 span.cancel {
 	color: #ff731c;
 	background-color: transparent;
 	border: 1px solid #ff731c
 }
+
 .order-num, .payways {
 	background-color: #fff;
 	margin-bottom: 0.3rem;
 	color: #181818;
 	font-size: 0.7rem
 }
+
 .order-num, .payways-tit {
 	height: 1.85rem;
 	line-height: 1.85rem;
 	padding: 0 0.6rem
 }
+
 .payways ul li, .payways-tit {
 	border-bottom: 1px solid #f3f3f3
 }
+
 .payways ul li a {
 	padding: 0.6rem;
 	background: url(../images/my-arrow.png) 95% center no-repeat;
@@ -720,25 +837,30 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .payways-img {
 	width: 2rem;
 	height: 2rem;
 	margin-right: 0.5rem;
 	overflow: hidden
 }
+
 .payways-txt {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .payways-txt h2 {
 	color: #181818
 }
+
 .payways-txt p {
 	color: #999999;
 	font-size: 0.6rem
 }
+
 .integral-head {
 	height: 4.45rem;
 	width: 100%;
@@ -748,15 +870,18 @@ span.cancel {
 	-webkit-box-sizing: border-box;
 	padding-top: 1.5rem
 }
+
 .integral-head p {
 	color: #fff;
 	font-size: 0.7rem;
 	text-align: center
 }
+
 .integral-head p em {
 	font-size: 1.8rem;
 	text-shadow: 0 0 0.1rem rgba(161, 9, 24, 0.4)
 }
+
 .integral-rule {
 	background-color: #fff;
 	padding: 0 0.5rem;
@@ -764,19 +889,23 @@ span.cancel {
 	margin-bottom: 0.3rem;
 	color: #181818
 }
+
 .integral-rule-tit {
 	padding: 0.5rem 0
 }
+
 .integral-rule-tit h2 {
 	border-left: 2px solid #fa4b28;
 	padding-left: 0.25rem;
 	color: #999999;
 	font-size: 0.6rem
 }
+
 .integral-rule-con {
 	line-height: 1.2rem;
 	padding-bottom: 1rem
 }
+
 .modify input {
 	width: 100%;
 	line-height: 2.2rem;
@@ -791,22 +920,27 @@ span.cancel {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box
 }
+
 .modify input::-webkit-input-placeholder {
 	color: #181818;
 	font-size: 0.6rem
 }
+
 .modify input:-moz-placeholder {
 	color: #181818;
 	font-size: 0.6rem
 }
+
 .modify input::-moz-placeholder {
 	color: #181818;
 	font-size: 0.6rem
 }
+
 .modify input:-ms-input-placeholder {
 	color: #181818;
 	font-size: 0.6rem
 }
+
 .registered {
 	margin-top: 0.3rem;
 	padding: 0 0.5rem;
@@ -814,13 +948,16 @@ span.cancel {
 	border-top: 1px solid #e8e8e8;
 	border-bottom: 1px solid #e8e8e8
 }
+
 .registered .field {
 	border-bottom: 1px solid #efefef;
 	position: relative
 }
+
 .registered .field:last-child {
 	border-bottom: none
 }
+
 .registered .field a.fsyzm {
 	position: absolute;
 	right: 0.5rem;
@@ -836,32 +973,41 @@ span.cancel {
 	-webkit-border-radius: 0.3rem;
 	border-radius: 0.3rem
 }
+
 .registered .field input {
 	padding: 0.6rem 0;
 	font-size: 15px;
 	color: #c8c8c8
 }
+
 .registered .field input.username {
 	width: 100%
 }
+
 .registered .field input.yzm {
 	width: 50%
 }
+
 .registered .field input::-webkit-input-placeholder {
 	color: #c8c8c8
 }
+
 .registered .field input:-moz-placeholder {
 	color: #c8c8c8
 }
+
 .registered .field input::-moz-placeholder {
 	color: #c8c8c8
 }
+
 .registered .field input:-ms-input-placeholder {
 	color: #c8c8c8
 }
+
 .modify {
 	position: relative
 }
+
 .clear-close {
 	display: none;
 	position: absolute;
@@ -874,21 +1020,26 @@ span.cancel {
 	background-size: contain;
 	outline: none
 }
+
 .username::-ms-clear {
 	display: none
 }
+
 .username:valid+.clear-close {
 	display: inline
 }
+
 .add-class ul {
 	margin-bottom: 0.3rem
 }
+
 .add-class ul li {
 	padding: 0 0.5rem;
 	border-bottom: 1px solid #e5e5e5;
 	height: 2.25rem;
 	line-height: 2.25rem
 }
+
 .add-class ul li label {
 	color: #181818;
 	font-size: 0.7rem;
@@ -897,18 +1048,22 @@ span.cancel {
 	min-width: 2rem;
 	display: inline-block
 }
+
 .add-class ul li input {
 	color: #bbbbbb;
 	font-size: 0.7rem;
 	width: 11rem
 }
+
 .online-evaluation-textarea {
 	margin-bottom: 0 !important
 }
+
 .upload-photos {
 	padding: 0.5rem;
 	background-color: #fff
 }
+
 .upload-photos span {
 	display: inline-block;
 	width: 3.5rem;
@@ -916,25 +1071,30 @@ span.cancel {
 	background: url(../images/camera.png) center center no-repeat;
 	background-size: contain
 }
+
 .upload-photos img {
 	display: inline-block;
 	width: 3.5rem;
 	height: 3.5rem
 }
+
 .order-evaluation .maintenance-reservation-textarea {
 	min-height: 6rem
 }
+
 .order-evaluation .maintenance-reservation-textarea span {
 	padding: 1.5rem 0 1.5rem 2rem;
 	margin-top: -1.5rem;
 	background: url(../images/order-evaluation-icon.png) left center no-repeat;
 	background-size: 1.65rem 1.175rem
 }
+
 .service-evaluation {
 	background-color: #fff;
 	padding: 0.5rem;
 	border-top: 1px solid #e8f3fe
 }
+
 .service-evaluation span {
 	font-size: 0.6rem;
 	margin-right: 0.3rem;
@@ -943,6 +1103,7 @@ span.cancel {
 	height: 0.75rem;
 	line-height: 0.75rem
 }
+
 .worker-item {
 	margin-bottom: 0.3rem;
 	background-color: #fff;
@@ -950,22 +1111,27 @@ span.cancel {
 	font-size: 0.6rem;
 	color: #181818
 }
+
 .worker-item-tit {
 	padding: 0.5rem 0
 }
+
 .worker-item-tit h2 {
 	border-left: 2px solid #fa4b28;
 	padding-left: 0.25rem;
 	color: #999999;
 	font-size: 0.6rem
 }
+
 .worker-item-con {
 	line-height: 1rem;
 	padding-bottom: 0.75rem
 }
+
 .worker {
 	padding: 0
 }
+
 .worker .worker-top {
 	padding: 0.5rem;
 	border-bottom: 1px solid #efefef;
@@ -977,30 +1143,36 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .worker .worker-top .worker-top-img {
 	width: 3.25rem;
 	height: auto;
 	margin-right: 0.5rem;
 	border: 1px solid #e8e8e8
 }
+
 .worker .worker-top .worker-top-txt {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .worker .worker-top .worker-top-txt h2 {
 	font-size: 0.7rem;
 	margin-bottom: 0.2rem
 }
+
 .worker .worker-top .worker-top-txt span {
 	line-height: 1rem;
 	color: #777777;
 	margin-right: 0.5rem
 }
+
 .worker .worker-top .worker-top-txt span:last-child {
 	display: block
 }
+
 .worker .worker-bot {
 	padding: 0 0.5rem;
 	height: 1.75rem;
@@ -1008,22 +1180,27 @@ span.cancel {
 	background: url(../images/my-arrow.png) 95% center no-repeat;
 	background-size: 0.275rem 0.5rem
 }
+
 .worker .worker-bot a {
 	display: inline-block
 }
+
 .worker .worker-bot span {
 	display: inline-block;
 	margin-right: 0.1rem;
 	vertical-align: middle
 }
+
 .worker .worker-bot span:first-child {
 	color: #181818;
 	font-size: 0.6rem
 }
+
 .worker .worker-bot span:last-child {
 	color: #777777;
 	font-size: 0.5rem
 }
+
 .sa_star {
 	background: url(../images/star.png) no-repeat transparent;
 	background-size: 7.575rem auto;
@@ -1032,6 +1209,7 @@ span.cancel {
 	height: 0.6rem;
 	display: block
 }
+
 .sa_d {
 	background: url(../images/star.png) no-repeat transparent;
 	background-size: 7.575rem auto;
@@ -1039,24 +1217,30 @@ span.cancel {
 	height: 0.6rem;
 	display: block
 }
+
 .user-evaluation-item {
 	padding: 0.5rem;
 	font-size: 0.6rem;
 	border-bottom: 1px solid #e5e5e5
 }
+
 .user-evaluation-item .phone {
 	color: #181818;
 	margin-right: 0.5rem
 }
+
 .user-evaluation-item .time {
 	color: #999999
 }
+
 .user-evaluation-item-con-txt, .user-evaluation-item-con-img {
 	margin-top: 0.5rem
 }
+
 .user-evaluation-item-con-img {
 	margin-right: -0.35rem
 }
+
 .user-evaluation-item-con-img img {
 	float: left;
 	width: 2.7rem;
@@ -1064,36 +1248,44 @@ span.cancel {
 	margin-right: 0.35rem;
 	margin-top: 0.35rem
 }
+
 .book-process, .project-description {
 	background-color: #fff;
 	margin-bottom: 0.3rem
 }
+
 .book-process-tit {
 	line-height: 1.7rem;
 	font-size: 0.7rem;
 	color: #181818;
 	padding-left: 0.5rem
 }
+
 .book-process-con {
 	padding-bottom: 0.5rem
 }
+
 .project-description {
 	padding: 0 0.6rem
 }
+
 .project-description-tit {
 	padding: 0.5rem 0
 }
+
 .project-description-tit h2 {
 	font-size: 0.7rem;
 	border-left: 2px solid #fa4b28;
 	padding-left: 0.25rem;
 	color: #999999
 }
+
 .project-description-con {
 	font-size: 0.6rem;
 	line-height: 1rem;
 	padding-bottom: 0.75rem
 }
+
 .book-recovery-bot {
 	width: 100%;
 	position: fixed;
@@ -1102,32 +1294,39 @@ span.cancel {
 	height: 2.1rem;
 	line-height: 2.1rem
 }
+
 .book-recovery-bot div {
 	width: 50%;
 	height: 100%;
 	float: left
 }
+
 .book-recovery-bot a {
 	color: #fff;
 	font-size: 0.75rem;
 	text-align: center;
 	display: block
 }
+
 .assessment {
 	background-color: #30b507
 }
+
 .book {
 	background-color: #ff731c
 }
+
 .maintenance-reservation ul {
 	padding: 0 0.5rem
 }
+
 .maintenance-reservation ul li {
 	height: 2.25rem;
 	line-height: 2.25rem;
 	background: url(../images/my-arrow.png) right center no-repeat;
 	background-size: 0.275rem 0.5rem
 }
+
 .maintenance-reservation ul li a {
 	font-size: 0.6rem;
 	color: #181818;
@@ -1139,12 +1338,14 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .maintenance-reservation ul li a i {
 	display: block;
 	width: 0.75rem;
 	height: 0.9rem;
 	margin-right: 0.45rem
 }
+
 .maintenance-reservation ul li a span {
 	display: block;
 	border-bottom: 1px solid #e5e5e5;
@@ -1153,9 +1354,11 @@ span.cancel {
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .maintenance-reservation ul li:last-child a span {
 	border-bottom: none
 }
+
 .maintenance-reservation-textarea {
 	min-height: 3.5rem;
 	font-size: 0.6rem;
@@ -1164,9 +1367,11 @@ span.cancel {
 	background-color: #fff;
 	position: relative
 }
+
 .maintenance-reservation-textarea .textarea {
 	width: 100%
 }
+
 .maintenance-reservation-textarea .layer {
 	position: absolute;
 	top: 0.5rem;
@@ -1177,6 +1382,7 @@ span.cancel {
 	left: 0.5rem;
 	top: 0.5rem
 }
+
 .maintenance-reservation-textarea span {
 	display: block;
 	background: url(../images/input-icon.png) left center no-repeat;
@@ -1185,12 +1391,14 @@ span.cancel {
 	font-size: 0.6rem;
 	color: #bbbbbb
 }
+
 .order-details {
 	margin-bottom: 0.3rem;
 	padding: 0 0.5rem 0.5rem 0.5rem;
 	background-color: #fff;
 	font-size: 0.6rem
 }
+
 .order-details-tit {
 	background: url(../images/order-details-icon.png) left center no-repeat;
 	background-size: 0.75rem 0.75rem;
@@ -1200,10 +1408,12 @@ span.cancel {
 	color: #181818;
 	border-bottom: 1px solid #e5e5e5
 }
+
 .order-details-con p {
 	padding: 0.5rem 0;
 	position: relative
 }
+
 .order-details-con p input.order-number {
 	width: 3rem;
 	padding: 0.25rem;
@@ -1212,6 +1422,7 @@ span.cancel {
 	border: 1px solid #aaaaaa;
 	margin: 0 0.3rem
 }
+
 .order-details-con p input[type="checkbox"] {
 	position: absolute;
 	right: 0;
@@ -1225,32 +1436,39 @@ span.cancel {
 	-webkit-appearance: none;
 	border: 0
 }
+
 .order-details-con p input[type=checkbox]:checked {
 	background-image: url(../images/checkbox-on.png)
 }
+
 .reservation {
 	margin-bottom: 0.3rem
 }
+
 .worker-join .worker-join-item {
 	font-size: 0.7rem;
 	padding: 0.6rem 0.5rem;
 	background-color: #fff;
 	border-bottom: 1px solid #e5e5e5
 }
+
 .worker-join .worker-join-item label {
 	float: left;
 	min-width: 2.2rem;
 	margin-right: 0.3rem;
 	text-align: right
 }
+
 .worker-join .worker-join-item input {
 	float: left
 }
+
 .worker-join-item.file, .worker-join-item.select {
 	position: relative;
 	background: #fff url(../images/my-arrow.png) 95% center no-repeat;
 	background-size: 0.275rem 0.5rem
 }
+
 .worker-join .worker-join-item.file .worker-img {
 	position: absolute;
 	right: 10%;
@@ -1263,6 +1481,7 @@ span.cancel {
 	border-radius: 0.3rem;
 	overflow: hidden
 }
+
 #nav {
 	position: fixed;
 	top: 0;
@@ -1270,9 +1489,11 @@ span.cancel {
 	right: 0;
 	z-index: 1000
 }
+
 #menu_con {
 	overflow: hidden
 }
+
 .coupons-tabBox ul {
 	display: -moz-box;
 	display: -webkit-box;
@@ -1283,6 +1504,7 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .coupons-tabBox ul a {
 	padding: 0.5rem 0;
 	-webkit-box-flex: 1;
@@ -1292,16 +1514,20 @@ span.cancel {
 	font-size: 0.7rem;
 	color: #181818
 }
+
 .coupons-tabBox ul a:last-child {
 	border-right: none
 }
+
 .coupons-tabBox ul li span {
 	display: block
 }
+
 .coupons-tabBox ul a.selected {
 	border-bottom: 2px solid #fa4b28;
 	color: #fa4b28
 }
+
 .coupons-tabBox .coupons-tabBoxitem {
 	height: 3rem;
 	background-color: #fff;
@@ -1314,6 +1540,7 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-img {
 	height: 3rem;
 	line-height: 3rem;
@@ -1323,15 +1550,19 @@ span.cancel {
 	font-weight: bold;
 	width: 4.75rem
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-img.coupons-redbg {
 	background-color: #f54545
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-img.coupons-greybg {
 	background-color: #b2b2b3
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-img em {
 	font-size: 1.5rem
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-txt {
 	margin-left: 0.5rem;
 	-webkit-box-flex: 1;
@@ -1339,22 +1570,27 @@ span.cancel {
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-txt h3 {
 	display: block;
 	color: #181818;
 	font-size: 0.7rem
 }
+
 .coupons-tabBox .coupons-tabBoxitem .coupons-txt span {
 	display: block;
 	color: #999999;
 	font-size: 0.6rem
 }
+
 .my-order ul {
 	padding: 0 0.5rem
 }
+
 .my-order #nav {
 	border-bottom: 1px solid #e5e5e5
 }
+
 .my-order ul {
 	display: -moz-box;
 	display: -webkit-box;
@@ -1365,6 +1601,7 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .my-order ul a {
 	padding: 0.5rem 0;
 	-webkit-box-flex: 1;
@@ -1374,44 +1611,56 @@ span.cancel {
 	font-size: 0.7rem;
 	color: #181818
 }
+
 .my-order ul a:last-child {
 	border-right: none
 }
+
 .my-order ul li span {
 	display: block
 }
+
 .my-order ul a.selected {
 	border-bottom: 2px solid #fa4b28;
 	color: #fa4b28
 }
+
 .my-order-item {
 	background-color: #fff;
 	margin-bottom: 0.3rem
 }
+
 .my-order-item-tit {
 	padding: 0 0.5rem;
 	font-size: 0.7rem;
 	height: 1.5rem;
 	line-height: 1.5rem
 }
+
 .my-order-item-tit h3 {
 	float: left
 }
+
 .my-order-item-tit span {
 	float: right
 }
+
 .my-order-wait-zf {
 	color: #fa4b28
 }
+
 .my-order-acceptance {
 	color: #fa4b28
 }
+
 .my-order-wait-pj {
 	color: #fa4b28
 }
+
 .my-order-over {
 	color: #fa4b28
 }
+
 .my-order-item-txt {
 	padding: 0.5rem;
 	border-top: 1px solid #e5e5e5;
@@ -1419,27 +1668,32 @@ span.cancel {
 	font-size: 0.6rem;
 	color: #666666
 }
+
 .my-order-time {
 	background: url(../images/my-order-time.png) left center no-repeat;
 	background-size: 0.9rem 0.9rem;
 	padding-left: 1rem;
 	margin-bottom: 0.3rem
 }
+
 .my-order-name {
 	background: url(../images/goods_name.png) left center no-repeat;
 	background-size: 0.9rem 0.9rem;
 	padding-left: 1rem;
 	margin-bottom: 0.3rem
 }
+
 .my-order-address {
 	background: url(../images/my-order-address.png) left center no-repeat;
 	background-size: 0.9rem 0.9rem;
 	padding-left: 1rem
 }
+
 .my-order-item-btn {
 	position: relative;
 	height: 2rem
 }
+
 .my-order-item-btn span {
 	display: block;
 	float: left;
@@ -1455,23 +1709,28 @@ span.cancel {
 	-webkit-border-radius: 0.2rem;
 	border-radius: 0.2rem
 }
+
 .my-order-item-btn span.my-order-item-red {
 	border: 1px solid #fa4b28;
 	color: #fa4b28
 }
+
 .my-order-item-btn span.my-order-item-red a, .my-order-item-btn span.my-order-item-jindu a {
 	color: #fa4b28
 }
+
 .pos-r {
 	position: absolute;
 	right: 0.5rem;
 	top: 0.35rem
 }
+
 .jbsf-item {
 	border-bottom: 1px solid #e5e5e5;
 	padding: 0.5rem;
 	position: relative
 }
+
 .top:after {
 	content: '';
 	display: block;
@@ -1485,15 +1744,19 @@ span.cancel {
 	background: url(../images/topthree-icon.png) left center no-repeat;
 	background-size: contain
 }
+
 .topone:after {
 	content: '01'
 }
+
 .toptwo:after {
 	content: '02'
 }
+
 .topthree:after {
 	content: '03'
 }
+
 .jbsf-item {
 	display: -moz-box;
 	display: -webkit-box;
@@ -1503,16 +1766,19 @@ span.cancel {
 	-webkit-align-items: center;
 	align-items: center
 }
+
 .jbsf-item .jbsf-item-img {
 	border: 1px solid #dfdfdf;
 	width: 3.25rem;
 	height: 3rem;
 	overflow: hidden
 }
+
 .jbsf-item .jbsf-item-img img {
 	width: 100%;
 	height: 100%
 }
+
 .jbsf-item .jbsf-item-txt {
 	padding-left: 0.3rem;
 	-webkit-box-flex: 1;
@@ -1520,32 +1786,40 @@ span.cancel {
 	-ms-box-flex: 1;
 	box-flex: 1
 }
+
 .jbsf-item .jbsf-item-txt h2 {
 	font-size: 0.7rem;
 	color: #181818
 }
+
 .jbsf-item .jbsf-item-txt .order-total, .jbsf-item .jbsf-item-txt .jbsf-details {
 	height: 1rem;
 	line-height: 1rem
 }
+
 .jbsf-item .jbsf-item-txt .order-total span, .jbsf-item .jbsf-item-txt .jbsf-details span {
 	display: inline-block;
 	vertical-align: middle;
 	color: #777777;
 	font-size: 0.6rem
 }
+
 .jbsf-item .jbsf-item-txt .order-total .sa_star {
 	margin-right: 0.5rem
 }
+
 .jbsf-details .work-type {
 	background-image: url(../images/work-type.png)
 }
+
 .jbsf-details .work-ages {
 	background-image: url(../images/work-ages.png)
 }
+
 .jbsf-details .worker-address {
 	background-image: url(../images/worker-address.png)
 }
+
 .jbsf-details span, .jbsf-details div {
 	vertical-align: middle;
 	padding-left: 0.7rem;
@@ -1553,16 +1827,19 @@ span.cancel {
 	background-position: left center;
 	background-size: 0.6rem 0.6rem
 }
+
 .set_img {
 	margin-right: 0.5rem;
 	width: 3.5rem;
 	height: 3.5rem
 }
+
 .mui-dtpicker-title h5 {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box
 }
+
 .modify {
 	line-height: 1.2rem;
 	padding: 0.5rem;
@@ -1574,16 +1851,20 @@ span.cancel {
 	right: 0;
 	top: 2rem
 }
+
 .order-total #star, .jbsf-item-txt a {
 	display: inline-block
 }
+
 .worker-bot #star {
 	display: inline-block;
 	vertical-align: middle
 }
+
 #star {
 	height: 0.75rem
 }
+
 #star ul {
 	float: left;
 	display: inline-block;
@@ -1591,6 +1872,7 @@ span.cancel {
 	line-height: 0.75rem;
 	background-color: transparent
 }
+
 #star li {
 	height: 0.75rem;
 	line-height: 0.75rem;
@@ -1604,38 +1886,46 @@ span.cancel {
 	background: url(../images/star.png) center center no-repeat;
 	background-size: 0.75rem 0.775rem
 }
+
 #star li.on {
 	background: url(../images/star-on.png) center center no-repeat;
 	background-size: 0.75rem 0.775rem
 }
+
 .my-order-item-btn span.my-order-item-blue {
 	border: 1px solid blue;
 	color: blue
 }
+
 .my-order-item-btn span.my-order-item-gray {
 	border: 1px solid grey;
 	color: grey
 }
+
 .book-ok {
 	margin-top: 5rem;
 	text-align: center
 }
+
 .book-ok-img {
 	height: 3.5rem;
 	width: 3.5rem;
 	margin: 0 auto;
 	margin-bottom: 0.5rem
 }
+
 .book-ok h2 {
 	font-size: 1rem;
 	color: #999999;
 	margin-bottom: 0.5rem
 }
+
 .book-ok p {
 	font-size: 0.6rem;
 	color: #555555;
 	margin-bottom: 0.5rem
 }
+
 .book-ok a {
 	width: 6rem;
 	height: 1.5rem;
