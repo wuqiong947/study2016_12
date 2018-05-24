@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="デバッグ文" enabled="true" name="debug">if (log.isDebugEnabled()) log.debug(${cursor});</template><template autoinsert="true" context="java" deleted="false" description="Commons Logging Log Instance" enabled="true" name="log">/** Log instance*/&#13;
+private static Log log = LogFactory.getLog(${primary_type_name}.class);</template></templates>
